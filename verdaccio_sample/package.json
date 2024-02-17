@@ -1,0 +1,23 @@
+{
+  "name": "verdaccio_sample",
+  "version": "1.0.0",
+  "description": "Sample of verdaccio with typescript",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files":
+  [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "typescript": "^5.1.3"
+  },
+  "type": "module"
+}
